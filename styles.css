@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-    --primary-color: #b30986;
+    --primary-color: #c1272d; /* Harvard red from logo */
     --secondary-color: #2c4167;
     --light-color: #f4f4f4;
     --dark-color: #333;
@@ -89,15 +89,16 @@ header .container {
     padding: 20px;
 }
 
-.logo h1 {
-    color: var(--primary-color);
-    font-size: 24px;
-    display: flex;
-    align-items: center;
+.logo-img {
+    height: 60px;
+    width: auto;
+    display: block;
 }
 
-.logo i {
-    margin-right: 10px;
+.footer-logo-img {
+    height: 80px;
+    width: auto;
+    margin-bottom: 15px;
 }
 
 nav ul {
